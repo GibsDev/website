@@ -1,0 +1,1 @@
+	<script src="/res/js/sidebar.js"></script>

@@ -1,0 +1,14 @@
+#sidebar {
+	color: #fff;
+	width: 250px;
+	display: table-cell;
+	overflow-x: hidden;
+	transition: width 300ms ease;
+}
+
+#sidebar-content {
+	position: fixed;
+	width: inherit;
+	background: #222;
+	height: 100%;
+}

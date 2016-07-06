@@ -3,3 +3,4 @@
 		<link rel="stylesheet" type="text/css" href="/res/styles/core.css">
 		<link rel="stylesheet" type="text/css" href="/res/styles/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="/res/styles/content.css">
+		<link rel="stylesheet" type="text/css" href="/res/styles/snippets.css">

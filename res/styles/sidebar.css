@@ -2,13 +2,32 @@
 	color: #fff;
 	width: 250px;
 	display: table-cell;
-	overflow-x: hidden;
 	transition: width 300ms ease;
+	vertical-align: top;
+	overflow: hidden;
+	background: #222;
 }
 
 #sidebar-content {
 	position: fixed;
+	overflow: hidden;
+	width: inherit;
+	height: 100%;
 	width: inherit;
 	background: #222;
+}
+
+#shadow {
+	position: fixed;
+	width: inherit;
 	height: 100%;
+	box-shadow: inset 0px 0px 15px #000;
+	pointer-events: none;
+}
+
+#gibsdev {
+	margin-top: 10px;
+	text-align: center;
+	width: 250px;
+	display: block;
 }

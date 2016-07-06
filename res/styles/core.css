@@ -14,3 +14,7 @@ body {
 	display: table;
 	table-layout: fixed;
 }
+
+ul {
+	list-style-position: inside;
+}

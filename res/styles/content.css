@@ -5,16 +5,16 @@
 
 #top-bar {
 	position: fixed;
-	padding: 15px;
+	padding: 12px;
 	background: rgba(255,255,255, 0.8);
-	border-bottom: 1px solid #222;
-	border-right: 1px solid #222;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
 	border-bottom-right-radius: 5px;
+	cursor: pointer;
 }
 
 #menu {
-	width: 30px;
-	cursor: pointer;
+	width: 20px;
 	vertical-align: middle;
 }
 
@@ -22,13 +22,13 @@
 	min-width: 380px;
 	max-width: 900px;
 	margin: auto;
-	padding: 15px;
-	margin-top: 50px;
+	padding: 20px;
+	margin-top: 40px;
 	font-size: 20px;
 }
 
 #content > * {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #content > *:last-child {
@@ -63,4 +63,18 @@ article > *:last-child {
 
 #content h3 {
 	font-size: 20px;
+}
+
+@media (max-width: 640px) {
+	#top-bar{
+		right: 0px;
+		border-right: none;
+		border-left: 1px solid #ccc;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 0px;
+	}
+
+	#content {
+		font-size: 17px;
+	}
 }

@@ -60,6 +60,9 @@ function updateBlocks(){
 	client.send();
 }
 
+var old = window.onload;
+
 window.onload = function(){
+	old();
 	updateBlocks();
 };

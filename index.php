@@ -41,12 +41,6 @@
 					<li>Internet Explorer</li>
 					<li>Dairy</li>
 				</ul>
-				<h2>Code Snippet Examples</h2>
-				<p>An example of <code>&lt;div class="code" data-src="./invalid.txt"&gt;&lt;/div&gt;</code>:</p>
-				<div class="code" data-src="/invalid.txt"></div>
-				<p>The source of this page (after php includes and before js html injection for snippets):</p>
-				<code>&lt;div class="code" data-src="./index.php"&gt;&lt;/div&gt;</code>
-				<div class="code" data-src="/index.php"></div>
 			</main>
 		</div>
 	</body>

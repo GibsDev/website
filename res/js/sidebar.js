@@ -1,5 +1,6 @@
-var button = document.getElementById('menu');
+var topBar = document.getElementById('top-bar');
 var sidebar = document.getElementById('sidebar');
+var content = document.getElementById('content');
 
 sidebar.style.width = sidebar.offsetWidth + "px";
 
@@ -13,4 +14,10 @@ function toggle(){
 	}
 }
 
-button.onclick = toggle;
+topBar.onclick = toggle;
+
+window.onload = function(){
+	if(content.offsetWidth == 380){
+		toggle();
+	}
+};

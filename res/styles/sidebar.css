@@ -1,6 +1,6 @@
 #sidebar {
 	color: #fff;
-	width: 250px;
+	width: 200px;
 	display: table-cell;
 	transition: width 300ms ease;
 	vertical-align: top;
@@ -17,6 +17,17 @@
 	background: #222;
 }
 
+
+#sidebar-wrapper {
+	width: 200px;
+}
+
+#sidebar-wrapper > * {
+	margin-top: 15px;
+	width: inherit;
+	display: block;
+}
+
 #shadow {
 	position: fixed;
 	width: inherit;
@@ -25,9 +36,30 @@
 	pointer-events: none;
 }
 
-#gibsdev {
-	margin-top: 10px;
+#title {
 	text-align: center;
-	width: 250px;
-	display: block;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+}
+
+#gibsdev {
+	margin-bottom: 15px;
+}
+
+#sidebar-wrapper > .sidebar-link {
+	margin-top: 0px;
+	padding: 10px 0px;
+	padding-right: 15px;
+	text-align: right;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+
+#footer {
+	padding: 15px;
+	text-align: center;
 }

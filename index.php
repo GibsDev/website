@@ -11,7 +11,7 @@
 				<img id="menu" src="/res/images/menu.svg" />
 			</div>
 			<main id="content">
-				<h1>Welcome</h1>
+				<h1>Welcome to GibsDev.com</h1>
 				<p>This is my personal website that I created to share my content with other people.</p>
 				<h2>About Me</h2>
 				<p>My name is Curtis Gibson, and I love everything to do with computers.</p>

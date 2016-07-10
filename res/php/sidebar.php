@@ -1,13 +1,17 @@
 		<div id="sidebar">
 			<div id="sidebar-content">
-				<div id="sidebar-wrapper">
-					<h1 id="title">GibsDev</h1>
-					<img id="gibsdev" src="/res/images/gibsdev.svg" alt="gibsdev" />
-					<a class="sidebar-link" href="">Links</a>
-					<a class="sidebar-link" href="">To</a>
-					<a class="sidebar-link" href="">Stuff</a>
-					<div id="footer">
-						<p>FOOTER</p>
+				<img id="logo" src="/res/images/gibsdev.svg" />
+				<hr>
+				<div id="nav-links">
+					<a href="">Articles</a>
+					<a href="">Other</a>
+				</div>
+				<div id="footer">
+					<hr>
+					<div id="media-wrapper">
+						<a class="media-link" href=""><img src="/res/images/github.svg" alt="github" /></a>
+						<a class="media-link" href=""><img src="/res/images/twitch.svg" alt="twitch" /></a>
+						<a class="media-link" href=""><img src="/res/images/youtube.svg" alt="youtube" /></a>
 					</div>
 				</div>
 			</div>

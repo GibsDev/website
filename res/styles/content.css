@@ -1,6 +1,9 @@
 #content-wrapper {
 	overflow-x: hidden;
 	display: table-cell;
+	position: relative;
+	background: #fff;
+	z-index: 1;
 }
 
 #top-bar {
